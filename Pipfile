@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[dev-packages]
+
+[packages]
+flask = "*"
+gunicorn = "*"
+flask-restless = "*"
+sqlalchemy = "*"
+gevent = "*"
+sqlalchemy-utils = "*"
+flask-cors = "*"
+greenlet = "*"
+python-dotenv = "*"
+werkzeug = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
